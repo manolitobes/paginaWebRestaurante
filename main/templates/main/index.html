@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La Choquita Gourmet</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="{% static 'main/css/style.css' %}">
 </head>
 <body>
     <header>
@@ -22,7 +22,7 @@
     </header>
     <main class="services container">
         <div class="service">
-        <img src="images/platillo4.jpg" alt="" />
+        <img src="{% static "images/platillo4.jpg" %}">
         <h3>Tacos De Cochinillo</h3>
         <p>Pierna de cerdo marinada y
             horneada, acompañado de chicharrón
@@ -35,7 +35,7 @@
                 rellena de queso de hebra, chicharrón y
                 champiñones, sobre cremoso de aguacate</p>
                 <h3>Quesadilla de Chicharron y Champiñones</h3>
-                <img src="images/platillo 5.jpg" alt="" />
+                <img src="{% static "images/platillo5.jpg" %}">
             </div>
         </main>
 </body>
