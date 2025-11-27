@@ -62,7 +62,7 @@ header{
     padding: 20px;
     margin: 120px;
     border-radius: 20px;
-    background-color: white;
+    background-color: black !important;
 }
 
 .service img{
