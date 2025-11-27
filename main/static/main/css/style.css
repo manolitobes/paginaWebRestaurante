@@ -62,7 +62,13 @@ header{
     padding: 20px;
     margin: 120px;
     border-radius: 20px;
-    background-color: black !important;
+    background-color: white;
+    transition: 0.3s;
+}
+
+.service:hover{
+    background-color: black;
+    transform: 2,2;
 }
 
 .service img{
